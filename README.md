@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isndarrayLikeWithDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like-with-data-type@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-ndarray-like-with-data-type/tags). For example,
+
+```javascript
 import isndarrayLikeWithDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like-with-data-type@v0.0.0-deno/mod.js';
 ```
 
@@ -69,7 +74,7 @@ var bool = isndarrayLikeWithDataType( arr, 'generic' );
 
 ```javascript
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import isndarrayLikeWithDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like-with-data-type@v0.0.0-deno/mod.js';
+import isndarrayLikeWithDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like-with-data-type@deno/mod.js';
 
 var arr = ndarray( 'generic', [ 0, 0, 0, 0 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var bool = isndarrayLikeWithDataType( arr, 'generic' );
