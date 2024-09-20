@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isndarrayLikeWithDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like-with-data-type@esm/index.mjs';
+import isndarrayLikeWithDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like-with-data-type@v0.0.0-esm/index.mjs';
 ```
 
 #### isndarrayLikeWithDataType( value, dtype )
@@ -74,7 +74,7 @@ var bool = isndarrayLikeWithDataType( arr, 'generic' );
 <script type="module">
 
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@esm/index.mjs';
-import isndarrayLikeWithDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like-with-data-type@esm/index.mjs';
+import isndarrayLikeWithDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like-with-data-type@v0.0.0-esm/index.mjs';
 
 var arr = ndarray( 'generic', [ 0, 0, 0, 0 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var bool = isndarrayLikeWithDataType( arr, 'generic' );
